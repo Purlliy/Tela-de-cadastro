@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Cadastro</title>
+</head>
+<body class="w3-light-grey">
+    <div class="w3-container w3-padding-32">
+
+        <header class= "w3-center w3-teal w3-padding-32">
+                <h1 class="w3-xxxlarge"><b>Cadastro</b></h1>
+        </header>
+
+            <form class="w3-container" id="form1" name="form1" method="post" action="processaCadastro.php">
+                        <br>
+
+                    Nome: <input class="w3-input w3-border" name="nome" type="text" id="nome" placeholder="Digite seu nome completo">
+                        <br>
+
+                    Idade: <input class="w3-input w3-border" name="idade" type="text" id="idade" placeholder="Ex: 18">
+                        <br>
+
+                    Profissão: <input class="w3-input w3-border" name="profissao" type="text" id="profissao" placeholder="Ex: Professor">
+                        <br>
+
+                    Salário pretendido: <input class="w3-input w3-border" name="salario" type="text" id="salario" placeholder="Ex: 2500.00">
+                        <br>
+
+                    Experiência anterior: <textarea class="w3-input w3-border" name="experiencia" id="experiencia" placeholder="Ex: 2 anos de Engenharia" rows="6" cols="40"></textarea>
+                        <br>
+
+                    <input class="w3-button w3-teal w3-round" name="Enviar" type="submit" id="enviar" value="Enviar Cadastro">
+            </form>
+    </div>
+</body>
+</html>
